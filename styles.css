@@ -1,0 +1,46 @@
+body {
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background-color: rgb(255, 236, 179);
+ overflow: hidden;
+}
+
+.container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background-color: #fff;
+ width: 40%;
+ height: 75%;
+ border-radius: 10px;
+ box-shadow: 0 0.4rem 0.2rem 0 #fff;
+}
+
+.btn {
+ width: 300px;
+ margin-bottom: 10px;
+ border: none;
+ padding: 10px;
+ border-radius: 4px;
+ color: #fff;
+ cursor: pointer;
+}
+
+.btn:hover {
+ transform: scale(1.03);
+ transition: transform 150ms;
+}
+
+#increment-btn {
+ background-color: darkgreen;
+ box-shadow: 0 0.2rem 0.8rem 0 rgba(0, 230, 0, 0.6);
+}
+
+#save-btn {
+ background-color: darkred;
+ box-shadow: 0 0.2rem 0.8rem 0 rgba(255, 26, 26, 0.6);
+}
