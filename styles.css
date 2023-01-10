@@ -20,6 +20,10 @@ body {
  box-shadow: 0 0.4rem 0.2rem 0 #fff;
 }
 
+h2 {
+ font-size: 5rem;
+}
+
 .btn {
  width: 300px;
  margin-bottom: 10px;
