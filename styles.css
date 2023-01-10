@@ -4,7 +4,6 @@ body {
  flex-direction: column;
  justify-content: center;
  align-items: center;
- background-color: rgb(255, 236, 179);
  overflow: hidden;
 }
 
@@ -13,11 +12,10 @@ body {
  flex-direction: column;
  justify-content: center;
  align-items: center;
- background-color: #fff;
+ background-color: rgb(255, 236, 179);
  width: 40%;
  height: 80%;
  border-radius: 10px;
- box-shadow: 0 0.4rem 0.2rem 0 #fff;
 }
 
 h2 {
